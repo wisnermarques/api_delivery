@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_dados_pedido_dados_pedidos",
+  "info": {
+    "displayName": "dadosPedido",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantidade": {
+      "type": "integer",
+      "default": 1
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::produto.produto"
+    }
+  }
+}
